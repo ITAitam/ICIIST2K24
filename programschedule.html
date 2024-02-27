@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ICIIST2K24</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+ </head>
+<body>
+    <header class="header">
+        <img src="./aitam logo.png">
+        <a href="#" class="logo">ICIIST2K24</a>
+        <nav class="navbar">
+            <a href="./committees.html">COMMITTEES</a>
+            <a href="./callforpapers.html">CALL FOR PAPERS</a>
+            <a href="./programschedule.html">PROGRAM SCHEDULE</a>
+            <a href="#">CONTACT US</a>
+            <a></a>
+            <a></a>
+            <a></a>
+            <button type="button">REGISTER HERE</button>
+        </nav>
+    </header>
+    <section id="carousel">
+        <div width="97%" style="margin: 120px 15px 20px 15px;height:330px">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./carousel-1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./carousel-2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section id="content" style="margin: 13% 13% 0px 10%; text-align: justify;">
+        <h1>WELCOME TO ICIIST2K24</h1>
+        <h6>The conference will be hybrid mode. Authors can present their papers physically or online.</h6>
+        <br>
+        <h3><center><span class="bb-short-underline">COUNTDOWN</span></center></h3><br>
+        <div id = "COUNTDOWN" class = "COUNTDOWN"><center>
+            <ul>
+                <li><span id="days">00</span>DAYS</li>
+                <li><span id="hours">00</span>HOURS</li>
+                <li class="separator">:</li>
+                <li><span id="minutes">00</span>MINUTES</li>
+                <li class="separator">:</li>
+                <li><span id="seconds">00</span>SECONDS</li>
+            </ul></center>
+        </div>
+        <script>
+            var countDownDate = new Date ("AUG 02, 2024 00:00:00").getTime();
+            var x = setInterval (function()
+            {
+                var now = new Date().getTime();
+                var distance = countDownDate - now;
+                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24))/(1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60))/(1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                document.getElementById("days").innerHTML = days;
+                document.getElementById("hours").innerHTML = hours;
+                document.getElementById("minutes").innerHTML = minutes;
+                document.getElementById("seconds").innerHTML = seconds;
+            },1000);
+        </script>
+        <br>
+        <h3><span class="bb-short-underline">PROGRAM TIMELINES</span></h3><br>
+          <br>
+          <center>
+          <table style="width: 75%;">
+            <tr>
+              <th>#</th>
+              <th>DATE</th>
+              <th>TIMELINE ACTIVITY</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>SUBMISSION DEADLINE</td>
+              <td>MAY 31, 2024</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>NOTIFICATION</td>
+                <td>MAY 31, 2024</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>EARLY BIRD REGISTRATION DEADLINE</td>
+                <td>JUNE 08, 2024</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>REGULAR REGISTRATION DEADLINE</td>
+                <td>JUNE 22, 2024</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>CAMERA READY VERSION</td>
+                <td>JUNE 22, 2024</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td><b>DATE OF CONFERENCE</b></td>
+                <td><b>AUGUST 02-03, 2024</b></td>
+              </tr>
+          </tbody>
+        </table>
+    </center>
+        <br><br>
+          <h3><span class="bb-short-underline">PUBLICATIONS / PROCEEDINGS</span></h3><br>
+          <p style="font-size: 16px;">All accepted abstracts will be published in a conference proceedings e-book with ISBN.</p>
+          <p style="font-size: 16px;">All accepted and presented research will be published as Scopus Indexed Conference Proceedings.</p>
+          <p style="font-size: 16px;">All accepted full papers have the opportunity to be published in reputable international journals indexed by <strong style="color: rgb(114, 220, 114);font-size: 18px;">&nbsp;*Springer Journal&nbsp;&nbsp;</strong>to enhance visibility and discoverability of published research. Here are the few advantages of publishing your work in Springer.</p>
+          <p style="font-size: 16px;"><strong style="color: rgb(114, 220, 114);font-size: 18px;">Quality:</strong>Springer articles and books are subject to high-level peer review, editorial, author and production services, ensuring the quality and reliability of the work.</p>
+          <p style="font-size: 16px;"><strong style="color: rgb(114, 220, 114);font-size: 18px;">Speed:</strong> Springer offer fast publication while providing rigorous peer review to maintain the integrity of information.</p>
+          <p style="font-size: 16px;"><strong style="color: rgb(114, 220, 114);font-size: 18px;">Impact:</strong> Springer is proud of the impact and influence it has - from citations to social media shares; from advancing discovery within individual disciplines to affecting public discourse and policy making.</p>
+          <p style="font-size: 16px;"><strong style="color: rgb(114, 220, 114);font-size: 18px;">Visibility:</strong> Springer is committed to promoting your research as widely as we can and providing as much visibility and exposure for your article as possible.</p>
+          <p style="font-size: 16px;"><strong style="color: rgb(240, 6, 6);font-size: 18px;">* Waiting for Approval</strong></p>
+          
+            </section>
+    <section id="footer" style="margin: 13% 100% 13% 13%; text-align: justify;"></section>
+    <footer>
+                <marquee><i>An Event Organising and Hosting by IT Department of AITAM. Copyright &copy 2024, AITAM. All Rights Reserved.</i></marquee>
+    </footer>
+</section>
+</body>
