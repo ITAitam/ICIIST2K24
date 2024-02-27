@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ICIIST2K24</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <img src="./aitam logo.png">
+        <a href="./index.html" class="logo">ICIIST2K24</a>
+        <nav class="navbar">
+            <a href="#">COMMITTEES</a>
+            <a href="#">CALL FOR PAPERS</a>
+            <a href="#">PROGRAM SCHEDULE</a>
+            <a href="#">CONTACT US</a>
+            <a></a>
+            <a></a>
+            <a></a>
+            <button type="button">REGISTER HERE</button>
+        </nav>
+    </header>
+    <section id="carousel">
+        <div width="97%" style="margin: 120px 15px 20px 15px;height:330px">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./carousel-1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./carousel-2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        
+                    </div>
+                </div>
+                
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section id="content" style="margin: 13% 13% 0px 10%; text-align: justify;">
+        <h1>WELCOME TO ICIIST2K24</h1>
+        <h6>The conference will be hybrid mode. Authors can present their papers physically or online.</h6>
+        <br>
+        <h3><center><span class="bb-short-underline">COUNTDOWN</span></center></h3><br>
+        <div id = "COUNTDOWN" class = "COUNTDOWN"><center>
+            <ul>
+                <li><span id="days">00</span>DAYS</li>
+                <li><span id="hours">00</span>HOURS</li>
+                <li class="separator">:</li>
+                <li><span id="minutes">00</span>MINUTES</li>
+                <li class="separator">:</li>
+                <li><span id="seconds">00</span>SECONDS</li>
+            </ul></center>
+        </div>
+        <script>
+            var countDownDate = new Date ("JUL 05, 2024 00:00:00").getTime();
+            var x = setInterval (function()
+            {
+                var now = new Date().getTime();
+                var distance = countDownDate - now;
+                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24))/(1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60))/(1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                document.getElementById("days").innerHTML = days;
+                document.getElementById("hours").innerHTML = hours;
+                document.getElementById("minutes").innerHTML = minutes;
+                document.getElementById("seconds").innerHTML = seconds;
+            },1000);
+        </script>
+        <br>
+        <h3><span class="bb-short-underline">CHIEF PATRONS</span></h3><br>
+        <table style="width: 100%;">
+              <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Designation</th>
+                <th>Location</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Dr. K. Someswara Rao</td>
+                <td>Chairman</td>
+                <td>Aditya Educational Society, Tekkali.</td>
+              </tr>
+            </tbody>
+        </table>
+        <br><br>
+        <h3><span class="bb-short-underline">PATRONS</span></h3><br>
+        <table style="width: 100%;">
+            <tr>
+              <th>#</th>
+              <th>Name</th>
+              <th>Designation</th>
+              <th>Location</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Sri L.L. Naidu</td>
+              <td>Secretary</td>
+              <td>Aditya Educational Society, Tekkali.</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Sri T. Naga Raju</td>
+                <td>Treasurer</td>
+                <td>Aditya Educational Society, Tekkali.</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Prof. V.V. Nageswara Rao</td>
+                <td>Director</td>
+                <td>Aditya Educational Society, Tekkali.</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Mrs. V. Sudha Priya</td>
+                <td>Vice Chaiman</td>
+                <td>Aditya Educational Society, Tekkali.</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Dr. K. Ravi Kumar</td>
+                <td>Joint Secretary</td>
+                <td>Aditya Educational Society, Tekkali.</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>Sri K. Madhu Kumar</td>
+                <td>Director</td>
+                <td>Aditya Educational Society, Tekkali.</td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>Sri T. Naga Seshu</td>
+                <td>Director</td>
+                <td>Aditya Educational Society, Tekkali.</td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td>Sri V. Naga Sanketh</td>
+                <td>Director</td>
+                <td>Aditya Educational Society, Tekkali.</td>
+              </tr>
+          </tbody>
+      </table>
+      <br><br>
+      <h3><span class="bb-short-underline">CONFERENCE CHAIR</span></h3><br>
+        <table style="width: 100%;">
+              <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Designation</th>
+                <th>Location</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Dr. A.S. Srinivasa Rao</td>
+                <td>Principal</td>
+                <td>AITAM, Tekkali.</td>
+              </tr>
+            </tbody>
+        </table>
+        <br><br>
+        <h3><span class="bb-short-underline">PROGRAM CHAIR</span></h3><br>
+        <table style="width: 100%;">
+              <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Designation</th>
+                <th>Location</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Dr. Ch. Ramesh</td>
+                <td>Professor & Dean</td>
+                <td>AITAM, Tekkali.</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Dr. B.V. Ramana</td>
+                <td>Professor & Dean</td>
+                <td>AITAM, Tekkali.</td>
+              </tr>
+            </tbody>
+        </table>
+        <br><br>
+        <h3><span class="bb-short-underline">CONVENER</span></h3><br>
+        <table style="width: 100%;">
+              <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Designation</th>
+                <th>Location</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Dr. Yegireddi Ramesh</td>
+                <td>HOD, IT</td>
+                <td>AITAM, Tekkali.</td>
+              </tr>
+            </tbody>
+        </table>
+        <br><br>
+        <h3><span class="bb-short-underline">CO-CONVENER</span></h3><br>
+        <table style="width: 100%;">
+              <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Designation</th>
+                <th>Location</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Dr. U.D. Prasan</td>
+                <td>HOD, CSE</td>
+                <td>AITAM, Tekkali.</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Dr. B. Rama Rao</td>
+                <td>HOD, ECE</td>
+                <td>AITAM, Tekkali.</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Dr. M.V.B. Chandra Sekhar</td>
+                <td>HOD, CSM & CSD</td>
+                <td>AITAM, Tekkali.</td>
+              </tr>
+            </tbody>
+        </table>
+        <br><br>
+        <h3><span class="bb-short-underline">INTERNATIONAL  ADVISORY  COMMITTEE</span></h3><br>
+        <table style="width: 100%;">
+              <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Designation</th>
+                <th>Location</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Dr. Mohammed Hammad</td>
+                <td>Professor, Department of IT, Faculty of Computers and Information</td>
+                <td>Menoufla University, Shibin EI Kom 32511, Egypt.</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Dr. Pawel Plawiak</td>
+                <td>Professor & Dean, Faculty of Computer Science and Telecommunications</td>
+                <td>Cracow University of Technology.</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Dr. Hikmet Hakan Gruel</td>
+                <td>Professor, Faculty of Technology, Information Systems Engineering Department</td>
+                <td>Kocaeli University, Ismit Kocaeli, Turkey.</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Dr. Ch. Suresh Babu</td>
+                <td>Professor, College of Computer Science</td>
+                <td>King Khalid University (KKU), P.O BOX 394, Abha 61411, Kingdom of Saudi Arabia (K.S.A)</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Dr. Firoz Ahmed</td>
+                <td>Professor, Department of Information and Communication Engineering</td>
+                <td>University of Rajshahi, Rajshahi, Bangladesh.</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>Dr. Shuai Li</td>
+                <td>Professor, Information Technology and Electrical Engineering</td>
+                <td>University of Oulu, Finland.</td>
+              </tr>
+            </tbody>
+        </table>
+        <br><br>
+        <h3><span class="bb-short-underline">NATIONAL  ADVISORY  COMMITTEE</span></h3><br>
+        <table style="width: 100%;">
+              <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Designation</th>
+                <th>Location</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Dr. Vijaya Sarathi</td>
+                <td>Professor, CSE</td>
+                <td>IIT Guwahati, India.</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Dr. Diptendu Sinha Roy</td>
+                <td>Professor & HOD, CSE</td>
+                <td>NIT Meghalaya.</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Dr. R. Rajeswara Rao</td>
+                <td>Director</td>
+                <td>JNTUGV, Vizianagaram, Andhra Pradesh.</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Dr. K. Sahadevaiah</td>
+                <td>Professor</td>
+                <td>JNTUK, Kakinada, Andhra Pradesh.</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Dr. P. Rajesh Kumar</td>
+                <td>Professor, ECE</td>
+                <td>Andhra University, Visakhapatnam.</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>Dr. Bala Chakravarthi Neelapu</td>
+                <td>Assistant Professor, Department of Biotechnology and Medical Engineering</td>
+                <td>NIT, Rourkela.</td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>Dr. R. Malamathanraj</td>
+                <td>Assistant Professor, ECE</td>
+                <td>NIT, Tiruchirappali.</td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td>Dr. Madhusudhan Mishra</td>
+                <td>Associate Professor, ECE</td>
+                <td>North Eastern Regional Institute of Science and Technology, Arunachal Pradesh.</td>
+              </tr>
+              <tr>
+                <td>9</td>
+                <td>Dr. Narasimha Sarma N V S</td>
+                <td>Professor, ECE</td>
+                <td>NIT, Warangal.</td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td>Dr. B. Eswara Reddy</td>
+                <td>Director, Research and Development</td>
+                <td>JNTU Anantapur, Andhra Pradesh.</td>
+              </tr>
+              <tr>
+                <td>11</td>
+                <td>Dr. Naresh Babu Muppalaneni</td>
+                <td>Associate Professor & HOD, Department of Computer Science and Engineering</td>
+                <td>IIITDM Kurnool.</td>
+              </tr>
+              <tr>
+                <td>12</td>
+                <td>Dr. Ramanujam E</td>
+                <td>Professor</td>
+                <td>NIT Silchar, Assam.</td>
+              </tr>
+              <tr>
+                <td>13</td>
+                <td>Dr. Chandan Chakraborthy</td>
+                <td>Professor, CSE</td>
+                <td>NITTTR, Kolkata.</td>
+              </tr>
+              <tr>
+                <td>14</td>
+                <td>Dr. Gangadhara Rao Kancharla</td>
+                <td>Principal</td>
+                <td>ANU College of Sciences, Acharya Nagarjuna University.</td>
+              </tr>
+              <tr>
+                <td>15</td>
+                <td>Dr. Maitreyee Dutta</td>
+                <td>Professor & HOD, Information Management and Emerging Engineering</td>
+                <td>NITTTR, Chandigarh.</td>
+              </tr>
+              <tr>
+                <td>16</td>
+                <td>Dr. T. Rama Krishnudu</td>
+                <td>Assistant Professor, CSE</td>
+                <td>NIT, Warangal.</td>
+              </tr>
+              <tr>
+                <td>17</td>
+                <td>Dr. M. Srinivas</td>
+                <td>Assistant Professor, CSE</td>
+                <td>NIT, Warangal.</td>
+              </tr>
+              <tr>
+                <td>18</td>
+                <td>Dr. C. Nagaraju</td>
+                <td>Professor/td>
+                <td>Yogi Vemana University.</td>
+              </tr>
+              <tr>
+                <td>19</td>
+                <td>Dr. Ch. Bindhu Madhuri</td>
+                <td>Assistant Professor</td>
+                <td>JNTUGV, Vizianagaram.</td>
+              </tr>
+              <tr>
+                <td>20</td>
+                <td>Dr. Santosh Kumar Majhi</td>
+                <td>Assistant Professor</td>
+                <td>VSSUT, Burla.</td>
+              </tr>
+              <tr>
+                <td>21</td>
+                <td>Dr. Niraj Bala</td>
+                <td>Professor & HOD, Entrepreneurship Development and Industrial Coordination</td>
+                <td>NITTTR, Chandigarh.</td>
+              </tr>
+              <tr>
+                <td>22</td>
+                <td>Dr. Hanumanthappa M</td>
+                <td>Professor & HOD, MCA</td>
+                <td>Bangalore University.</td>
+              </tr>
+              <tr>
+                <td>23</td>
+                <td>Dr. S. Viswanadha Raju</td>
+                <td>Professor & Vice-Principal, CSE</td>
+                <td>JNTUH College of Engineering, Jagtial, Telangana.</td>
+              </tr>
+              <tr>
+                <td>24</td>
+                <td>Dr. V. Kiran Kumar</td>
+                <td>Professor, Department of Computer Science and Technology</td>
+                <td>Dravadian University, Kuppam, Andhra Pradesh.</td>
+              </tr>
+              <tr>
+                <td>25</td>
+                <td>Dr. K. Nageswara Rao</td>
+                <td>Professor & HOD, Department of Computer Science and Systems Engineering</td>
+                <td>AU College of Engineering, Andhara University.</td>
+              </tr>
+              <tr>
+                <td>26</td>
+                <td>Dr. S. Rama Krishna</td>
+                <td>Professor, CSE</td>
+                <td>Sri Venkateswara University, Tirupati.</td>
+              </tr>
+              <tr>
+                <td>27</td>
+                <td>Dr. O. Nagaraju</td>
+                <td>Professor</td>
+                <td>ANU College of Sciences, Acharya Nagarjuna University.</td>
+              </tr>
+              <tr>
+                <td>28</td>
+                <td>Dr. G. Sreedhar</td>
+                <td>Professor, Department of Computer Science</td>
+                <td>National Sanskrit University, Tirupati.</td>
+              </tr>
+              <tr>
+                <td>29</td>
+                <td>Dr. Suvendu Rup</td>
+                <td>Associate Professor, IT</td>
+                <td>NIT Raipur.</td>
+              </tr>
+              <tr>
+                <td>30</td>
+                <td>Dr. Pankaj Kumar SA</td>
+                <td>Professor & Associate Dean, CSE</td>
+                <td>NIT Rourkela.</td>
+              </tr>
+              <tr>
+                <td>31</td>
+                <td>Dr. C. Krishana Mohan</td>
+                <td>Professor, CSE</td>
+                <td>IIT Hyderabad.</td>
+              </tr>
+              <tr>
+                <td>32</td>
+                <td>Dr. M.V. Panduranga Rao</td>
+                <td>Professor</td>
+                <td>IIT Hyderabad.</td>
+              </tr>
+            </tbody>
+        </table>
+        <br><br>
+        <h3><span class="bb-short-underline">TECHNICAL  REVIEW  COMMITTEE</span></h3><br>
+        <table style="width: 100%;">
+              <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Designation</th>
+                <th>Location</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Dr. G. Nageswara Rao</td>
+                <td>Professor, IT</td>
+                <td>AITAM, Tekkali.</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Dr. B. Ramesh Naidu</td>
+                <td>Professor, IT</td>
+                <td>AITAM, Tekkali.</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Dr. K. Kavitha</td>
+                <td>Assistant Professor, IT</td>
+                <td>AITAM, Tekkali.</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Dr. T P R Vithal</td>
+                <td>Professor, CSE</td>
+                <td>AITAM, Tekkali.</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Dr. S. Vishnu Murthy</td>
+                <td>Associate Professor, CSE</td>
+                <td>AITAM, Tekkali.</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>Dr. K. Eswara Rao</td>
+                <td>Associate Professor, CSE</td>
+                <td>AITAM, Tekkali.</td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>Dr. G. Sateesh Kumar</td>
+                <td>Professor, ECE</td>
+                <td>AITAM, Tekkali.</td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td>Dr. V. Ashok Kumar</td>
+                <td>Professor, ECE</td>
+                <td>AITAM, Tekkali.</td>
+              </tr>
+              <tr>
+                <td>9</td>
+                <td>Dr. M. V. H. Bhaskara Murthy</td>
+                <td>Professor, ECE</td>
+                <td>AITAM, Tekkali.</td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td>Dr. K. V. L. Bhavani</td>
+                <td>Associate Professor, ECE</td>
+                <td>AITAM, Tekkali.</td>
+              </tr>
+              <tr>
+                <td>11</td>
+                <td>Dr. Karedla Chitambara Rao</td>
+                <td>Associate Professor, ECE</td>
+                <td>AITAM, Tekkali.</td>
+              </tr>
+              <tr>
+                <td>12</td>
+                <td>Dr. N. V. S. S. Kumar M</td>
+                <td>Associate Professor, ECE</td>
+                <td>AITAM, Tekkali.</td>
+              </tr>
+              <tr>
+                <td>13</td>
+                <td>Dr. V. Krishna Mohan G S S S S</td>
+                <td>Associate Professor, ECE</td>
+                <td>AITAM, Tekkali.</td>
+              </tr>
+              <tr>
+                <td>14</td>
+                <td>Dr. Srinivasa Ramanaidu M</td>
+                <td>Associate Professor, ECE</td>
+                <td>AITAM, Tekkali.</td>
+              </tr>
+              <tr>
+                <td>15</td>
+                <td>Dr. Pendyala V Muralidhar</td>
+                <td>Associate Professor, ECE</td>
+                <td>AITAM, Tekkali.</td>
+              </tr>
+              <tr>
+                <td>16</td>
+                <td>Dr. Lokeshraju Vysyaraju</td>
+                <td>Associate Professor, ECE</td>
+                <td>AITAM, Tekkali.</td>
+              </tr>
+              <tr>
+                <td>17</td>
+                <td>Dr. T. Naresh</td>
+                <td>Associate Professor, IT</td>
+                <td>AITAM, Tekkali.</td>
+              </tr>
+              <tr>
+                <td>18</td>
+                <td>Dr. H. Swapna Rekha</td>
+                <td>Associate Professor, IT</td>
+                <td>AITAM, Tekkali.</td>
+              </tr>
+              <tr>
+                <td>19</td>
+                <td>Dr. S. V. S. Shanti</td>
+                <td>Associate Professor, CSM & CSD</td>
+                <td>AITAM, Tekkali.</td>
+              </tr>
+              <tr>
+                <td>20</td>
+                <td>Dr. G. Stalin Babu</td>
+                <td>Associate Professor, CSM & CSD</td>
+                <td>AITAM, Tekkali.</td>
+              </tr>
+              <tr>
+                <td>21</td>
+                <td>Dr. Kiran Kumar Patro</td>
+                <td>Associate Professor, ECE</td>
+                <td>AITAM, Tekkali.</td>
+              </tr>
+              <tr>
+                <td>22</td>
+                <td>Dr. D. H. H. Santosh</td>
+                <td>Associate Professor, ECE</td>
+                <td>AITAM, Tekkali.</td>
+              </tr>
+              <tr>
+                <td>23</td>
+                <td>Dr. P. Sirish Kumar</td>
+                <td>Associate Professor, ECE</td>
+                <td>AITAM, Tekkali.</td>
+              </tr>
+              <tr>
+                <td>24</td>
+                <td>Dr. T. Ravi Kumar</td>
+                <td>Associate Professor, CSE</td>
+                <td>AITAM, Tekkali.</td>
+              </tr>
+              <tr>
+                <td>25</td>
+                <td>Dr. M. Jayanthi Rao</td>
+                <td>Associate Professor, CSE</td>
+                <td>AITAM, Tekkali.</td>
+              </tr>
+            </tbody>
+        </table>
+        <br><br>
+        <h3><span class="bb-short-underline">EDITORIAL BOARD</span></h3><br>
+        <table style="width: 100%;">
+              <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Designation</th>
+                <th>Location</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Dr. Yegireddi Ramesh</td>
+                <td>Professor & HOD, IT</td>
+                <td>AITAM, Tekkali.</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Dr. K. Srujan Raju</td>
+                <td>Professor, Dean & HOD, CSE</td>
+                <td>CMR Technical Campus, Hyderabad.</td>
+              </tr>
+            </tbody>
+        </table>
+        <br>
+            </section>
+    <section id="footer" style="margin: 13% 100% 13% 13%; text-align: justify;"></section>
+    <footer>
+                <marquee><i>An Event Organising and Hosting by IT Department of AITAM. All Copyright Reserved @ 2024</i></marquee>
+    </footer>
+</section>
+</body>

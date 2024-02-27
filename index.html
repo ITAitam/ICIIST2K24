@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ICIIST2K24</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <img src="./aitam logo.png">
+        <a href="#" class="logo">ICIIST2K24</a>
+        <nav class="navbar">
+            <a href="./committees.html">COMMITTEES</a>
+            <a href="#">CALL FOR PAPERS</a>
+            <a href="#">PROGRAM SCHEDULE</a>
+            <a href="#">CONTACT US</a>
+            <a></a>
+            <a></a>
+            <a></a>
+            <button type="button">REGISTER HERE</button>
+        </nav>
+    </header>
+    <section id="carousel">
+        <div width="97%" style="margin: 120px 15px 20px 15px;height:330px">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./carousel-1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./carousel-2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section id="content" style="margin: 13% 13% 0px 10%; text-align: justify;">
+        <h1>WELCOME TO ICIIST2K24</h1>
+        <h6>The conference will be hybrid mode. Authors can present their papers physically or online.</h6>
+        <br>
+        <h3><center><span class="bb-short-underline">COUNTDOWN</span></center></h3><br>
+        <div id = "COUNTDOWN" class = "COUNTDOWN"><center>
+            <ul>
+                <li><span id="days">00</span>DAYS</li>
+                <li><span id="hours">00</span>HOURS</li>
+                <li class="separator">:</li>
+                <li><span id="minutes">00</span>MINUTES</li>
+                <li class="separator">:</li>
+                <li><span id="seconds">00</span>SECONDS</li>
+            </ul></center>
+        </div>
+        <script>
+            var countDownDate = new Date ("JUL 05, 2024 00:00:00").getTime();
+            var x = setInterval (function()
+            {
+                var now = new Date().getTime();
+                var distance = countDownDate - now;
+                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24))/(1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60))/(1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                document.getElementById("days").innerHTML = days;
+                document.getElementById("hours").innerHTML = hours;
+                document.getElementById("minutes").innerHTML = minutes;
+                document.getElementById("seconds").innerHTML = seconds;
+            },1000);
+        </script>
+        <br>
+        <h3><span class="bb-short-underline">OVERVIEW</span></h3><br>
+        <h6>International conferences on innovation, intelligent systems, and smart technologies serve as platforms for researchers, academicians, industry professionals, and policymakers to exchange ideas, share the latest research findings, and discuss advancements in various technological domains. These conferences often cover a broad range of topics, including but not limited to: Intelligent Systems and Artificial Intelligence (AI), Smart Technologies and Internet of Things (IoT), Cyber-Physical Systems, Big Data and Analytics, and Healthcare Technologies</h6>
+        <br>
+        <h3><span class="bb-short-underline">OBJECTIVES</span></h3><br>
+        <h6>The objective of a conference on innovation, intelligent, and smart systems is to bring together professionals, researchers, and experts from various fields to exchange knowledge, ideas, and experiences related to the latest advancements in innovation and intelligent technologies in the domain of Computer Science and Electronics. Here are some key objectives that such a conference might aim to achieve:</h6>
+        
+        <p style="font-size: 18px;"><strong style="color: rgb(114, 220, 114);font-size: 20px;">Knowledge Sharing:</strong> Facilitate the exchange of cutting-edge research, developments, and best practices in the fields of innovation, intelligent systems, and smart technologies.</p>
+        <p style="font-size: 18px;"><strong style="color: rgb(114, 220, 114);font-size: 20px;">Networking:</strong> Provide a platform for participants to network with their peers, fostering collaborations and partnerships between academia, industry, and other stakeholders.</p>
+        <p style="font-size: 18px;"><strong style="color: rgb(114, 220, 114);font-size: 20px;">Interdisciplinary Collaboration:</strong> Encourage collaboration between professionals from different disciplines, promoting the integration of diverse perspectives and expertise to address complex challenges.</p>
+        <p style="font-size: 18px;"><strong style="color: rgb(114, 220, 114);font-size: 20px;">Technology Showcase:</strong> Showcase the latest innovations, products, and technologies in the fields of intelligent systems and smart technologies, allowing participants to stay updated on industry trends.</p>
+        <p style="font-size: 18px;"><strong style="color: rgb(114, 220, 114);font-size: 20px;">Skill Development:</strong> Offer workshops, tutorials, and training sessions to enhance the skills and knowledge of attendees in areas such as artificial intelligence, machine learning, Internet of Things (IoT), and other relevant domains.</p>
+        <p style="font-size: 18px;"><strong style="color: rgb(114, 220, 114);font-size: 20px;">Problem-solving and Discussions:</strong> Provide a platform for discussions on challenges and issues in the field, fostering problem-solving discussions that can lead to new insights and solutions.</p>
+        <p style="font-size: 18px;"><strong style="color: rgb(114, 220, 114);font-size: 20px;">Policy and Ethical Considerations:</strong> Address the ethical implications and policy considerations associated with the adoption of intelligent and smart systems, ensuring responsible and sustainable development.</p>
+        <p style="font-size: 18px;"><strong style="color: rgb(114, 220, 114);font-size: 20px;">Research Collaboration:</strong> Facilitate research collaboration by bringing together researchers working on similar or complementary topics, encouraging the sharing of resources and expertise.</p>
+        <p style="font-size: 18px;"><strong style="color: rgb(114, 220, 114);font-size: 20px;">Industry Insights:</strong> Offer insights from industry leaders on the practical applications of intelligent and smart systems, showcasing successful case studies and real-world implementations.</p>
+        <p style="font-size: 18px;"><strong style="color: rgb(114, 220, 114);font-size: 20px;">Educational Outreach:</strong> Provide opportunities for students and early-career professionals to learn from established experts, fostering the growth of the next generation of innovators in the field.</p>
+        <p style="font-size: 18px;">By achieving these objectives, a conference on innovation, intelligent, and smart systems aims to contribute to the advancement of knowledge, promote collaboration, and drive progress in the development and application of intelligent technologies.</p>    
+        <br>
+        <h3><center><span class="bb-short-underline">TRACKS</span></center></h3><br>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+                <div class="paper-item">
+                    <h4>INTELLIGENT SYSTEMS</h4>
+                    <h6>
+                        1. Artificial Intelligence<br>
+                        2. Pattern & Speech Recognition<br>
+                        3. Fuzzy Logic & Soft Computing<br>
+                        4. Neural Networks<br><br>
+                    <h6>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="paper-item">
+                    <h4>NETWORKING AND CYBER SECURITY</h4>
+                    <h6>
+                        1. Cyber Security in Wireless Networks<br>
+                        2. Intrusion and Anomaly Detection<br>
+                        3. Machine Learning for Cyber Security<br>
+                        4. Security and Privacy in Cloud Computing<br>
+                        5. Mobile Adhoc and Sensor Networks
+                    <h6>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="paper-item">
+                    <h4>SMART SYSTEMS</h4>
+                    <h6>
+                        1. Smart Computing for Security<br>
+                        2. Smart Computing for Data Science<br>
+                        3. Smart Computing for Artificial Intelligence<br><br><br><br><br>
+                    <h6>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="paper-item">
+                    <h4>ELECTRONICS</h4>
+                    <h6>
+                        1. Digital Signal Processing<br>
+                        2. Media Image and Vidoe Processing<br>
+                        3. Wireless Communication Networks<br>
+                        4. VLSI, Embedded Systems and IoT<br>
+                        5. Applications of AI in Electronic Systems<br>
+                        6. 5G and GPS Systems<br>
+                        7. Machine Learning and Deep Learning
+                    <h6>
+                </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section id="footer" style="margin: 13% 100% 13% 13%; text-align: justify;"></section>
+    <footer>
+                <marquee><i>An Event Organising and Hosting by IT Department of AITAM. All Copyright Reserved @ 2024</i></marquee>
+    </footer>
+</section>
+</body>
